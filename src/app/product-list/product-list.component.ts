@@ -9,12 +9,12 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
-
   share() {
     window.alert('The product has been shared!');
   }
 }
 
+/* Add new comment */
 
 /*
 Copyright Google LLC. All Rights Reserved.
